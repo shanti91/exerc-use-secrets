@@ -4,6 +4,7 @@ description: validation action for this lab
 
 inputs:
   your-secret:
+    super_secret: ${{ secrets.MY_TOKEN }}"
     description: A Personal Access Token with the repo scope stored as a secret
     required: true
   secrets-context:
